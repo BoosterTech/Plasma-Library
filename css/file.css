@@ -1,0 +1,407 @@
+/*Global*/
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: #fff;
+}
+
+.contentContainer {
+    max-width: 900px;
+    margin: 0 auto;
+    border-left: 2px solid #ffff;
+    border-right: 2px solid #ffff;
+    border-bottom: 1px solid #757779;
+    background-color: #bec7d1d3;
+    padding: 15px;
+}
+
+.body__button {
+    background-color: #18668a;
+    border: 1px solid #ffff;
+    border-radius: 25px;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.body__button:hover {
+    background-color: #2d95c5b2;
+}
+
+/*Header Section */
+.header {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #ffff;
+    padding: 15px;
+}
+
+.header__container {
+    background-color: #ffffff;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header__image {
+    display: inline;
+    max-width: 220px;
+    max-height: 86px;
+}
+
+.header__mainHeader {
+    font-family: sans-serif;
+    font-size: 60px;
+    font-weight: normal;
+    display: inline;
+    color: #2B6CA3;
+    text-align: right;
+    text-shadow: 2px 0px 0px #cdced4;
+    margin: 5px auto 10px 15px;
+}
+
+.header__line {
+    width: 795px;
+    max-width: 870px;
+    margin: auto;
+}
+
+.header__quote {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: oblique;
+    text-align: center;
+    text-shadow: 2px 2px 5px #8B0000;
+    font-weight: 5px;
+    margin-top: 5px auto 2px;
+}
+
+.header__author {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: oblique;
+    text-align: right;
+    text-shadow: 2px 2px 5px #8B0000;
+    font-weight: 5px;
+    margin-top: 5px auto 20px;
+}
+
+.header__buttonsContainer {
+    text-align: center;
+    margin: auto;
+}
+
+.header__button {
+    background-color: #18668a;
+    border: 1px solid #ffff;
+    border-radius: 25px;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    margin: 20px auto auto;
+    cursor: pointer;
+}
+
+.header__button:hover {
+    background-color: #2d95c5b2;
+}
+
+/*Nav Section */
+.menu {
+    list-style: none;
+    margin: auto;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    text-align: right;
+}
+
+.menu--forewords {
+    margin-bottom: 10px;
+}
+
+.menu__specialLetter {
+    color: #ca0516;
+    font-weight: 700;
+}
+
+.menu__item {
+    margin: auto;
+    padding: 2px;
+    height: 32px;
+}
+
+.menu__item--unpublished {
+    margin-top: 10px;
+    color: #8B0000;
+}
+
+.menu__link {
+    margin: auto;
+    padding: 3px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #2e2b2b;
+}
+
+.menu__link:hover {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 21px;
+}
+
+/*Main Section */
+.books__header {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 50px;
+    text-shadow: 3px 2px 5px #2B6CA3;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+
+.books--forewords {
+    text-align: center;
+}
+
+.books__specialLetter {
+    font-weight: 600;
+    color: #ca0516;
+}
+
+.books__layout1 {
+    width: 100%;
+    min-height: 500px;
+    margin: 86px auto 2px;
+}
+
+.books__layout2 {
+    width: 100%;
+    min-height: 500px;
+    margin: 86px 4px 2px;
+}
+
+.books__imageLeft {
+    border: 1px solid black;
+    border-radius: 2px;
+    float: left;
+    max-width: 300px;
+    margin: auto 50px auto 25px;
+    padding: 4px;
+    transition: transform .5s;
+}
+
+.books__imageLeft:hover {
+    transform: scale(1.2);
+}
+
+.books__imageRight {
+    max-width: 300px;
+    float: right;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: auto 25px auto 50px;
+    padding: 4px;
+    transition: transform .5s;
+}
+
+.books__imageRight:hover {
+    transform: scale(1.2);
+}
+
+.books__descriptionRight {
+    display: inline-block;
+    max-width: 50%;
+    margin-right: 25px;
+}
+
+.books__descriptionLeft {
+    display: inline-block;
+    max-width: 50%;
+    margin-left: 20px;
+}
+
+.books__line1 {
+    max-width: 433px;
+    margin-left: 370px;
+}
+
+.books__line2 {
+    max-width: 423px;
+    margin-left: 22px;
+}
+
+/*Additional publications section*/
+.additionalPublications__header {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #610410;
+    text-align: center;
+    text-shadow: 3px 2px 5px #e97979;
+    margin: 70px auto 10px auto;
+    text-align: center;
+}
+
+.table {
+    border-collapse: collapse;
+    max-width: 70%;
+    margin: 6px auto 70px;
+}
+
+.table__cell {
+    border: 1px solid rgb(12, 11, 11);
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table__cell--header {
+    background-color: #adaeb450;
+}
+
+.tableCell__title {
+    font-family: sans-serif;
+    font-size: 20px;
+    text-shadow: 3px 2px 5px #2B6CA3;
+    font-weight: 50px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+
+.table__image {
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 4px;
+    float: left;
+    max-width: 200px;
+    margin-right: auto 50px auto 25px;
+    transition: transform 0.5s;
+}
+
+.table__image:hover {
+    transform: scale(1.13);
+}
+
+.table__row:hover {
+    background-color: #adaeb47e;
+}
+
+/*Published & Unpublished section*/
+.unpublished__header {
+    font-family: sans-serif;
+    font-size: 18px;
+    text-shadow: 3px 2px 5px #2B6CA3;
+    font-weight: 10px;
+    text-align: center;
+    padding: auto;
+    margin: 35px auto 0 auto;
+}
+
+.unpublished__header--specialStyle {
+    font-size: 30px;
+    font-weight: 100;
+    color: #610410;
+    text-shadow: 3px 2px 5px #e97979;
+    margin: 100px auto 35px auto;
+}
+
+.unpublished__image {
+    margin: 50px auto;
+    max-width: 70%;
+    padding: 2px;
+    display: block;
+    border: 1px solid rgb(10, 10, 10);
+    transition: transform 0.5s;
+}
+
+.unpublished__image:hover {
+    transform: scale(1.4);
+}
+
+.backToTopButton {
+    color: #ffffff;
+    border-radius: 60px;
+    cursor: pointer;
+    margin: auto;
+    max-width: 200px;
+}
+
+/*footer section*/
+.footer {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.footer__image {
+    max-width: 10%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.body__button--flyup {
+    display: block;
+    margin: 40px auto 5px;
+}
+
+/*JavaScript classes*/
+.fullScreen {
+    min-width: 100%;
+}
+
+.menuAlign {
+    text-align: center;
+}
+
+.extendLine1 {
+    max-width: 800px;
+    margin: auto;
+}
+
+.extendLine2 {
+    max-width: 790px;
+    margin: auto;
+}
+
+.stillImage:hover {
+    transform: scale(1);
+}
+
+.expandTop {
+    max-width: 100%;
+}
+
+.expandBottom {
+    max-width: 100%;
+}
+
+.backgroundChange {
+    background: url(4K-Space-HD-Wallpaper-Free-download.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.authorNameAdjust {
+    margin: 5px 502px 20px auto;
+}
+
+.booksLeftDescriptionAdjust {
+    margin-left: 375px;
+}
+
+.exposeBackground {
+    background-color: #bec7d186;
+}
