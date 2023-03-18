@@ -329,14 +329,6 @@ html {
     transform: scale(1.4);
 }
 
-.backToTopButton {
-    color: #ffffff;
-    border-radius: 60px;
-    cursor: pointer;
-    margin: auto;
-    max-width: 200px;
-}
-
 /*footer section*/
 .footer {
     text-align: center;
@@ -388,7 +380,7 @@ html {
 }
 
 .backgroundChange {
-    background: url(4K-Space-HD-Wallpaper-Free-download.jpg);
+    background: url(https://www.linkpicture.com/q/4K-Space-HD-Wallpaper-Free-download_1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
