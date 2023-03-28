@@ -1,7 +1,7 @@
 # Plasma-Library
 ## "Plasma Science Library" with titles and links to interesting publications
 ### Demo:
-https://github.com/BoosterTech/Plasma-Library.git
+https://boostertech.github.io/Plasma-Library/
 ![main image](https://github.com/BoosterTech/Plasma-Library/blob/71364e00a2e68295725eb228085c949386149216/images/main.png)
 ## Navigating the page
 1. "***Navigation menu***" at the top of the screen can be used to jump to different sections of the page:
