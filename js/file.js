@@ -1,51 +1,62 @@
-//Nav section readjusting
-let expandHorizonElement = document.querySelector(".js-expandHorizonButton");
-let contentElement = document.querySelector(".js-contentContainer");
-let menuElement = document.querySelector(".js-menu");
-let mainHeaderElement = document.querySelector(".js-header");
-let footerElement = document.querySelector(".js-footer");
-let travelIntoSpaceElement = document.querySelector(".js-travelIntoSpaceButton");
-let bodyElement = document.querySelector(".js-body");
-let authorElement = document.querySelector(".js-headerAuthor");
-//adjusting width of seperation lines
-let line1Element = document.querySelector(".js-booksLine1");
-let line2Element = document.querySelector(".js-booksLine2");
-//Switching off an expansion of'unpublishedBooksImage'
-let unpublishedImageElement = document.querySelector(".js-unpublishedImage");
-//adjusting description of 2nd book
-let descriptionLeftElement = document.querySelector(".js-booksDescriptionLeft")
+{
+    const travelIntoSpaceElement = document.querySelector(".js-travelIntoSpaceButton");
+    const contentElement = document.querySelector(".js-contentContainer");
+    const expandHorizonElement = document.querySelector(".js-expandHorizonButton");
 
-expandHorizonElement.addEventListener("click", () => {
-    if (contentElement.classList.contains("fullScreen")) {
+    const onClickChangeBackground = () => {
+        const bodyElement = document.querySelector(".js-body");
 
-        contentElement.classList.toggle("fullScreen");
-        menuElement.classList.toggle("menuAlign");
-        expandHorizonElement.innerText = "EXPAND THE HORIZON";
-        line1Element.classList.toggle("extendLine1");
-        line2Element.classList.toggle("extendLine2");
-        unpublishedImageElement.classList.toggle("stillImage");
-        mainHeaderElement.classList.toggle("expandTop");
-        footerElement.classList.toggle("expandBottom");
-        authorElement.classList.toggle("authorNameAdjust");
-        descriptionLeftElement.classList.toggle("booksLeftDescriptionAdjust");
+        bodyElement.classList.toggle("backgroundChange");
+        contentElement.classList.toggle("exposeBackground");
+
+        travelIntoSpaceElement.innerText = bodyElement.classList.contains("backgroundChange") ? "TRAVEL INTO CENTRAL STAR" : "TRAVEL INTO SPACE";
     }
-    else {
-        contentElement.classList.toggle("fullScreen");
-        menuElement.classList.toggle("menuAlign")
-        expandHorizonElement.innerText = "NARROW THE HORIZON";
-        line1Element.classList.toggle("extendLine1");
-        line2Element.classList.toggle("extendLine2");
-        unpublishedImageElement.classList.toggle("stillImage");
-        mainHeaderElement.classList.toggle("expandTop");
-        footerElement.classList.toggle("expandBottom");
-        authorElement.classList.toggle("authorNameAdjust");
-        descriptionLeftElement.classList.toggle("booksLeftDescriptionAdjust");
+
+    const onClickChangeScreenSize = () => {
+
+        const menuElement = document.querySelector(".js-menu");
+        const mainHeaderElement = document.querySelector(".js-header");
+        const footerElement = document.querySelector(".js-footer");
+        const authorElement = document.querySelector(".js-headerAuthor");
+        const line1Element = document.querySelector(".js-booksLine1");
+        const line2Element = document.querySelector(".js-booksLine2");
+        const unpublishedImageElement = document.querySelector(".js-unpublishedImage");
+        const descriptionLeftElement = document.querySelector(".js-booksDescriptionLeft");
+
+        const narrowScreen = () => {
+            contentElement.classList.toggle("fullScreen");
+            menuElement.classList.toggle("menuAlign");
+            expandHorizonElement.innerText = "EXPAND THE HORIZON";
+            line1Element.classList.toggle("extendLine1");
+            line2Element.classList.toggle("extendLine2");
+            unpublishedImageElement.classList.toggle("stillImage");
+            mainHeaderElement.classList.toggle("expandTop");
+            footerElement.classList.toggle("expandBottom");
+            authorElement.classList.toggle("authorNameAdjust");
+            descriptionLeftElement.classList.toggle("booksLeftDescriptionAdjust");
+        }
+
+        const expandScreen = () => {
+            contentElement.classList.toggle("fullScreen");
+            menuElement.classList.toggle("menuAlign")
+            expandHorizonElement.innerText = "NARROW THE HORIZON";
+            line1Element.classList.toggle("extendLine1");
+            line2Element.classList.toggle("extendLine2");
+            unpublishedImageElement.classList.toggle("stillImage");
+            mainHeaderElement.classList.toggle("expandTop");
+            footerElement.classList.toggle("expandBottom");
+            authorElement.classList.toggle("authorNameAdjust");
+            descriptionLeftElement.classList.toggle("booksLeftDescriptionAdjust");
+        }
+
+        if (contentElement.classList.contains("fullScreen")) narrowScreen();
+        else expandScreen();
     }
-})
 
-travelIntoSpaceElement.addEventListener("click", () => {
-    bodyElement.classList.toggle("backgroundChange");
-    contentElement.classList.toggle("exposeBackground");
+    const init = () => {
+        expandHorizonElement.addEventListener("click", onClickChangeScreenSize);
+        travelIntoSpaceElement.addEventListener("click", onClickChangeBackground);
+    }
 
-    travelIntoSpaceElement.innerText = bodyElement.classList.contains("backgroundChange") ? "TRAVEL INTO CENTRAL STAR" : "TRAVEL INTO SPACE";
-})
+    init();
+}
