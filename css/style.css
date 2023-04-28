@@ -143,6 +143,7 @@ html {
         padding: 10px;
         margin-top: 20px;
         cursor: pointer;
+        font-size: 12px;
     }
 
     .body__button:hover {
@@ -173,7 +174,7 @@ html {
         width: 100%;
         min-height: 100px;
         margin: auto;
-        
+
     }
 
     .books__layout2 {
@@ -214,7 +215,7 @@ html {
 
     .books__descriptionRight {
         max-width: 100%;
-       
+
         margin: auto;
     }
 
@@ -224,7 +225,7 @@ html {
     }
 
     .books__line1 {
-        max-width:220px;
+        max-width: 220px;
         margin: 20px auto;
     }
 
