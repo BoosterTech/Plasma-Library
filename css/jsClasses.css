@@ -1,0 +1,48 @@
+.fullScreen {
+    min-width: 100%;
+}
+
+.menuAlign {
+    text-align: center;
+}
+
+.extendLine1 {
+    max-width: 800px;
+    margin: auto;
+}
+
+.extendLine2 {
+    max-width: 790px;
+    margin: auto;
+}
+
+.stillImage:hover {
+    transform: scale(1);
+}
+
+.expandTop {
+    max-width: 100%;
+}
+
+.expandBottom {
+    max-width: 100%;
+}
+
+.backgroundChange {
+    background: url(https://www.linkpicture.com/q/4K-Space-HD-Wallpaper-Free-download_1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.authorNameAdjust {
+    margin: 5px 502px 20px auto;
+}
+
+.booksLeftDescriptionAdjust {
+    margin-left: 375px;
+}
+
+.exposeBackground {
+    background-color: #bec7d186;
+}

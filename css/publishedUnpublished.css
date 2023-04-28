@@ -1,0 +1,30 @@
+.unpublished__header {
+    font-family: sans-serif;
+    font-size: 18px;
+    text-shadow: 3px 2px 5px #2B6CA3;
+    font-weight: 10px;
+    text-align: center;
+    padding: auto;
+    margin: 35px auto 0 auto;
+}
+
+.unpublished__header--specialStyle {
+    font-size: 30px;
+    font-weight: 100;
+    color: #610410;
+    text-shadow: 3px 2px 5px #e97979;
+    margin: 100px auto 35px auto;
+}
+
+.unpublished__image {
+    margin: 50px auto;
+    max-width: 70%;
+    padding: 2px;
+    display: block;
+    border: 1px solid rgb(10, 10, 10);
+    transition: transform 0.5s;
+}
+
+.unpublished__image:hover {
+    transform: scale(1.4);
+}

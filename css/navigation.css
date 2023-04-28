@@ -1,0 +1,41 @@
+.menu {
+    list-style: none;
+    margin: auto;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    text-align: right;
+}
+
+.menu--forewords {
+    margin-bottom: 10px;
+}
+
+.menu__specialLetter {
+    color: #ca0516;
+    font-weight: 700;
+}
+
+.menu__item {
+    margin: auto;
+    padding: 2px;
+    height: 32px;
+}
+
+.menu__item--unpublished {
+    margin-top: 10px;
+    color: #8B0000;
+}
+
+.menu__link {
+    margin: auto;
+    padding: 3px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #2e2b2b;
+}
+
+.menu__link:hover {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 21px;
+}
