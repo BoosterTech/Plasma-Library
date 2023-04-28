@@ -1,5 +1,8 @@
 # Plasma-Library
 ## "Plasma Science Library" with titles and links to interesting publications
+### Technologies used:
+- HTML, CSS, JavaScript (including "ECMAScript 6" features)
+- BEM
 ### Demo:
 https://boostertech.github.io/Plasma-Library/
 ![main image](https://github.com/BoosterTech/Plasma-Library/blob/71364e00a2e68295725eb228085c949386149216/images/main.png)
