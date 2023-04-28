@@ -13,7 +13,6 @@
     }
 
     const onClickChangeScreenSize = () => {
-
         const menuElement = document.querySelector(".js-menu");
         const mainHeaderElement = document.querySelector(".js-header");
         const footerElement = document.querySelector(".js-footer");
@@ -23,10 +22,9 @@
         const unpublishedImageElement = document.querySelector(".js-unpublishedImage");
         const descriptionLeftElement = document.querySelector(".js-booksDescriptionLeft");
 
-        const narrowScreen = () => {
+        const changeScreenProperties = () => {
             contentElement.classList.toggle("fullScreen");
             menuElement.classList.toggle("menuAlign");
-            expandHorizonElement.innerText = "EXPAND THE HORIZON";
             line1Element.classList.toggle("extendLine1");
             line2Element.classList.toggle("extendLine2");
             unpublishedImageElement.classList.toggle("stillImage");
@@ -34,23 +32,18 @@
             footerElement.classList.toggle("expandBottom");
             authorElement.classList.toggle("authorNameAdjust");
             descriptionLeftElement.classList.toggle("booksLeftDescriptionAdjust");
+        }
+
+        const narrowScreen = () => {
+            changeScreenProperties();
+            expandHorizonElement.innerText = "EXPAND THE HORIZON";
         }
 
         const expandScreen = () => {
-            contentElement.classList.toggle("fullScreen");
-            menuElement.classList.toggle("menuAlign")
+            changeScreenProperties();
             expandHorizonElement.innerText = "NARROW THE HORIZON";
-            line1Element.classList.toggle("extendLine1");
-            line2Element.classList.toggle("extendLine2");
-            unpublishedImageElement.classList.toggle("stillImage");
-            mainHeaderElement.classList.toggle("expandTop");
-            footerElement.classList.toggle("expandBottom");
-            authorElement.classList.toggle("authorNameAdjust");
-            descriptionLeftElement.classList.toggle("booksLeftDescriptionAdjust");
         }
-
-        if (contentElement.classList.contains("fullScreen")) narrowScreen();
-        else expandScreen();
+        contentElement.classList.contains("fullScreen") ? narrowScreen() : expandScreen();
     }
 
     const init = () => {
