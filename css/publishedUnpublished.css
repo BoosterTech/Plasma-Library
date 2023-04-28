@@ -1,30 +1,65 @@
-.unpublished__header {
-    font-family: sans-serif;
-    font-size: 18px;
-    text-shadow: 3px 2px 5px #2B6CA3;
-    font-weight: 10px;
-    text-align: center;
-    padding: auto;
-    margin: 35px auto 0 auto;
+@media (min-width:1200px) {
+    .unpublished__header {
+        font-family: sans-serif;
+        font-size: 18px;
+        text-shadow: 3px 2px 5px #2B6CA3;
+        font-weight: 10px;
+        text-align: center;
+        padding: auto;
+        margin: 35px auto 0 auto;
+    }
+
+    .unpublished__header--specialStyle {
+        font-size: 30px;
+        font-weight: 100;
+        color: #610410;
+        text-shadow: 3px 2px 5px #e97979;
+        margin: 100px auto 35px auto;
+    }
+
+    .unpublished__image {
+        margin: 50px auto;
+        max-width: 70%;
+        padding: 2px;
+        display: block;
+        border: 1px solid rgb(10, 10, 10);
+        transition: transform 0.5s;
+    }
+
+    .unpublished__image:hover {
+        transform: scale(1.4);
+    }
 }
 
-.unpublished__header--specialStyle {
-    font-size: 30px;
-    font-weight: 100;
-    color: #610410;
-    text-shadow: 3px 2px 5px #e97979;
-    margin: 100px auto 35px auto;
-}
+@media (min-width:250px) and (max-width:750px) {
+    .unpublished__header {
+        display: block;
+        font-family: sans-serif;
+        font-size: 17px;
+        text-shadow: 3px 2px 5px #2B6CA3;
+        font-weight: 10px;
+        text-align: center;
+        margin: 40px auto 0;
+    }
 
-.unpublished__image {
-    margin: 50px auto;
-    max-width: 70%;
-    padding: 2px;
-    display: block;
-    border: 1px solid rgb(10, 10, 10);
-    transition: transform 0.5s;
-}
+    .unpublished__header--specialStyle {
+        font-size: 20px;
+        font-weight: 100;
+        color: #610410;
+        text-shadow: 3px 2px 5px #e97979;
+        margin: 45px auto 10px auto;
+    }
 
-.unpublished__image:hover {
-    transform: scale(1.4);
+    .unpublished__image {
+        margin: auto;
+        max-width:100%;
+        padding: 2px;
+        display: block;
+        border: 1px solid rgb(10, 10, 10);
+        transition: transform 0.5s;
+    }
+
+    .unpublished__image:hover {
+        transform: scale(1.4);
+    }
 }
