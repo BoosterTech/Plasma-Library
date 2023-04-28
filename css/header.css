@@ -43,7 +43,7 @@
     text-align: center;
     text-shadow: 2px 2px 5px #8B0000;
     font-weight: 5px;
-    margin-top: 5px auto 2px;
+    margin: 5px auto;
 }
 
 .header__author {
@@ -53,7 +53,8 @@
     text-align: right;
     text-shadow: 2px 2px 5px #8B0000;
     font-weight: 5px;
-    margin-top: 5px auto 20px;
+    width: 850px;
+    margin: 0 auto 15px;
 }
 
 .header__buttonsContainer {

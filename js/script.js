@@ -16,7 +16,6 @@
         const menuElement = document.querySelector(".js-menu");
         const mainHeaderElement = document.querySelector(".js-header");
         const footerElement = document.querySelector(".js-footer");
-        const authorElement = document.querySelector(".js-headerAuthor");
         const line1Element = document.querySelector(".js-booksLine1");
         const line2Element = document.querySelector(".js-booksLine2");
         const unpublishedImageElement = document.querySelector(".js-unpublishedImage");
@@ -30,7 +29,6 @@
             unpublishedImageElement.classList.toggle("stillImage");
             mainHeaderElement.classList.toggle("expandTop");
             footerElement.classList.toggle("expandBottom");
-            authorElement.classList.toggle("authorNameAdjust");
             descriptionLeftElement.classList.toggle("booksLeftDescriptionAdjust");
         }
 
