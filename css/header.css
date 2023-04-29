@@ -1,4 +1,4 @@
-@media (min-width:390px) {
+@media (min-width:1200px) {
     .header {
         max-width: 900px;
         margin: 0 auto;
@@ -54,6 +54,86 @@
         text-shadow: 2px 2px 5px #8B0000;
         font-weight: 5px;
         width: 850px;
+        margin: 0 auto 15px;
+    }
+
+    .header__buttonsContainer {
+        text-align: center;
+        margin: auto;
+    }
+
+    .header__button {
+        background-color: #18668a;
+        border: 1px solid #ffff;
+        border-radius: 25px;
+        text-align: center;
+        color: #ffffff;
+        padding: 10px;
+        margin: 20px auto auto;
+        cursor: pointer;
+    }
+
+    .header__button:hover {
+        background-color: #2d95c5b2;
+    }
+}
+
+@media (min-width:750px) and (max-width:1200px) {
+    .header {
+        max-width: 650px;
+        margin: 0 auto;
+        background-color: #ffff;
+        padding: 15px;
+    }
+
+    .header__container {
+        background-color: #ffffff;
+        max-width: 650px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .header__image {
+        display: inline;
+        max-width: 220px;
+        max-height: 86px;
+    }
+
+    .header__mainHeader {
+        font-family: sans-serif;
+        font-size: 40px;
+        font-weight: normal;
+        display: inline;
+        color: #2B6CA3;
+        text-align: right;
+        text-shadow: 2px 0px 0px #cdced4;
+        margin: 5px auto 10px 15px;
+    }
+
+    .header__line {
+        width: 95%;
+        max-width: 95%;
+        margin: auto;
+    }
+
+    .header__quote {
+        font-family: sans-serif;
+        font-size: 16px;
+        font-style: oblique;
+        text-align: center;
+        text-shadow: 2px 2px 5px #8B0000;
+        font-weight: 5px;
+        margin: 5px auto;
+    }
+
+    .header__author {
+        font-family: sans-serif;
+        font-size: 16px;
+        font-style: oblique;
+        text-align: center;
+        text-shadow: 2px 2px 5px #8B0000;
+        font-weight: 5px;
+        width: 100%;
         margin: 0 auto 15px;
     }
 

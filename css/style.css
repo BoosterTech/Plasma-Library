@@ -122,6 +122,108 @@ html {
     }
 }
 
+@media (min-width:750px) and (max-width:1200px) {
+    .contentContainer {
+        max-width: 650px;
+        margin: 0 auto;
+        border-left: 1px solid #ffff;
+        border-right: 1px solid #ffff;
+        border-bottom: 1px solid #757779;
+        background-color: #bec7d1d3;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .body__button {
+        background-color: #18668a;
+        border: 1px solid #ffff;
+        border-radius: 25px;
+        text-align: center;
+        color: #ffffff;
+        padding: 10px;
+        margin-top: 20px;
+        cursor: pointer;
+        font-size: 12px;
+    }
+
+    .body__button:hover {
+        background-color: #2d95c5b2;
+    }
+
+    /*Main Section */
+    .books__header {
+        font-family: sans-serif;
+        font-size: 18px;
+        font-weight: 50px;
+        text-shadow: 3px 2px 5px #2B6CA3;
+        margin: 0 auto 15px;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .books--forewords {
+        text-align: center;
+    }
+
+    .books__specialLetter {
+        font-weight: 600;
+        color: #ca0516;
+    }
+
+    .books__layout1 {
+        width: 100%;
+        min-height: 400px;
+        margin: 50px auto;
+    }
+
+    .books__layout2 {
+        width: 100%;
+        min-height: 400px;
+        margin: 50px auto;
+    }
+
+    .books__imageLeft {
+        border: 1px solid black;
+        border-radius: 2px;
+        float: left;
+        max-width: 200px;
+        margin: auto;
+        padding: 4px;
+        transition: transform .5s;
+    }
+
+    .books__imageRight {
+        max-width: 200px;
+        float: right;
+        border: 1px solid black;
+        border-radius: 2px;
+        margin: auto 15px;
+        padding: 4px;
+    }
+
+    .books__descriptionRight {
+        display: inline-block;
+        max-width: 50%;
+        margin-right: 25px;
+    }
+
+    .books__descriptionLeft {
+        display: inline-block;
+        max-width: 50%;
+        margin: auto 20px;
+    }
+
+    .books__line1 {
+        max-width: 80%;
+        margin: 15px auto;
+    }
+
+    .books__line2 {
+        max-width: 80%;
+        margin: 15px auto;
+    }
+}
+
 @media (min-width:250px) and (max-width:750px) {
     .contentContainer {
         max-width: 300px;
@@ -191,7 +293,6 @@ html {
         max-width: 200px;
         margin: 20px auto 25px;
         padding: 4px;
-        transition: transform .5s;
     }
 
     .books__imageRight {
@@ -202,7 +303,6 @@ html {
         border-radius: 2px;
         margin: 25px auto 15px;
         padding: 4px;
-        transition: transform .5s;
     }
 
     .books__descriptionRight {

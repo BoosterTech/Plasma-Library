@@ -18,6 +18,27 @@
     }
 }
 
+@media (min-width:750px) and (max-width:1200px) {
+    .footer {
+        text-align: center;
+        max-width: 300px;
+        margin: 0 auto;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .footer__image {
+        max-width: 30%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .body__button--flyup {
+        display: block;
+        margin: 40px auto 3px;
+        font-size: 15px;
+    }
+}
+
 @media (min-width:250px) and (max-width:750px) {
     .footer {
         text-align: center;

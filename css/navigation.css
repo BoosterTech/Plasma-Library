@@ -42,12 +42,62 @@
     }
 }
 
+@media (min-width:750px) and (max-width:1200px) {
+    .menu {
+        list-style: none;
+        max-height: 300px;
+        height: 300px;
+        margin: 0 auto 15px auto;
+        border-bottom: 1px solid black;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .menu--forewords {
+        font-size: 18px;
+        padding-bottom: 30px;
+    }
+
+    .menu__specialLetter {
+        color: #ca0516;
+        font-weight: 700;
+    }
+
+    .menu__item {
+        text-align: center;
+        margin: 15px auto;
+        padding: 1px;
+        height: 27px;
+    }
+
+    .menu__item--unpublished {
+        text-align: center;
+        margin-top: 15px;
+        color: #8B0000;
+    }
+
+    .menu__link {
+        margin: auto;
+        padding: 2px;
+        text-decoration: none;
+        font-size: 18px;
+        color: #2e2b2b;
+    }
+
+    .menu__link:hover {
+        background-color: #ffffff;
+        color: #000000;
+        font-size: 21px;
+    }
+
+}
+
 @media (min-width:250px) and (max-width:750px) {
     .menu {
         list-style: none;
         max-height: 300px;
-        height: 300px; 
-        margin: 0 auto 15px auto ;
+        height: 300px;
+        margin: 0 auto 15px auto;
         border-bottom: 1px solid black;
         padding: 20px;
         text-align: center;
