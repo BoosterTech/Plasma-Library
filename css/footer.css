@@ -21,13 +21,13 @@
 @media (min-width:750px) and (max-width:1200px) {
     .footer {
         text-align: center;
-        max-width: 300px;
+        max-width: 650px;
         margin: 0 auto;
         background-color: rgb(255, 255, 255);
     }
 
     .footer__image {
-        max-width: 30%;
+        max-width: 15%;
         margin: 0 auto;
         padding: 0;
     }
@@ -42,13 +42,13 @@
 @media (min-width:250px) and (max-width:750px) {
     .footer {
         text-align: center;
-        max-width: 300px;
+        max-width: 650px;
         margin: 0 auto;
         background-color: rgb(255, 255, 255);
     }
 
     .footer__image {
-        max-width: 30%;
+        max-width: 20%;
         margin: 0 auto;
         padding: 0;
     }
