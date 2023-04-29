@@ -59,7 +59,7 @@
     .additionalPublications__header {
         font-size: 20px;
         font-family: sans-serif;
-        font-weight: 100;
+        font-weight: 50px;
         color: #610410;
         text-align: center;
         text-shadow: 3px 2px 5px #e97979;
@@ -99,10 +99,6 @@
         max-width: 105px;
         margin: auto;
         transition: transform 0.5s;
-    }
-
-    .table__image:hover {
-        transform: scale(1.13);
     }
 
     .table__row:hover {

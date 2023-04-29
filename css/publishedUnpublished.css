@@ -37,7 +37,7 @@
         font-family: sans-serif;
         font-size: 17px;
         text-shadow: 3px 2px 5px #2B6CA3;
-        font-weight: 10px;
+        font-weight: 50px;
         text-align: center;
         margin: 40px auto 0;
     }
@@ -57,9 +57,5 @@
         display: block;
         border: 1px solid rgb(10, 10, 10);
         transition: transform 0.5s;
-    }
-
-    .unpublished__image:hover {
-        transform: scale(1.4);
     }
 }

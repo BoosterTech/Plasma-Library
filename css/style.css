@@ -194,10 +194,6 @@ html {
         transition: transform .5s;
     }
 
-    .books__imageLeft:hover {
-        transform: scale(1.2);
-    }
-
     .books__imageRight {
         display: block;
         max-width: 200px;
@@ -209,13 +205,8 @@ html {
         transition: transform .5s;
     }
 
-    .books__imageRight:hover {
-        transform: scale(1.2);
-    }
-
     .books__descriptionRight {
         max-width: 100%;
-
         margin: auto;
     }
 

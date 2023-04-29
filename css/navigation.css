@@ -67,7 +67,7 @@
         text-align: center;
         margin: 15px auto;
         padding: 1px;
-        height: 20px;
+        height: 27px;
     }
 
     .menu__item--unpublished {
@@ -78,7 +78,7 @@
 
     .menu__link {
         margin: auto;
-        padding: 10px;
+        padding: 2px;
         text-decoration: none;
         font-size: 15px;
         color: #2e2b2b;
