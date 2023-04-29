@@ -42,7 +42,7 @@
 @media (min-width:250px) and (max-width:750px) {
     .footer {
         text-align: center;
-        max-width: 650px;
+        max-width: 300px;
         margin: 0 auto;
         background-color: rgb(255, 255, 255);
     }
