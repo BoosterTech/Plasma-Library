@@ -1,145 +1,143 @@
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
+  .fullScreen {
+    min-width: 100%;
+  }
 
-    .fullScreen {
-        min-width: 100%;
-    }
+  .menuAlign {
+    text-align: center;
+  }
 
-    .menuAlign {
-        text-align: center;
-    }
+  .extendLine1 {
+    max-width: 800px;
+    margin: auto;
+  }
 
-    .extendLine1 {
-        max-width: 800px;
-        margin: auto;
-    }
+  .extendLine2 {
+    max-width: 790px;
+    margin: auto;
+  }
 
-    .extendLine2 {
-        max-width: 790px;
-        margin: auto;
-    }
+  .stillImage:hover {
+    transform: scale(1);
+  }
 
-    .stillImage:hover {
-        transform: scale(1);
-    }
+  .expandTop {
+    max-width: 100%;
+  }
 
-    .expandTop {
-        max-width: 100%;
-    }
+  .expandBottom {
+    max-width: 100%;
+  }
 
-    .expandBottom {
-        max-width: 100%;
-    }
+  .backgroundChange {
+    background: url(/images/4K-Space-HD-Wallpaper-Free-download.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
 
-    .backgroundChange {
-        background: url(images\4K-Space-HD-Wallpaper-Free-download.jpg);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        background-position: center;
-    }
+  .booksLeftDescriptionAdjust {
+    margin-left: 375px;
+  }
 
-    .booksLeftDescriptionAdjust {
-        margin-left: 375px;
-    }
-
-    .exposeBackground {
-        background-color: #bec7d186;
-    }
+  .exposeBackground {
+    background-color: #bec7d186;
+  }
 }
 
-@media (min-width:750px) and (max-width:1200px) {
-    .fullScreen {
-        min-width: 100%;
-    }
+@media (min-width: 750px) and (max-width: 1200px) {
+  .fullScreen {
+    min-width: 100%;
+  }
 
-    .menuAlign {
-        text-align: center;
-    }
+  .menuAlign {
+    text-align: center;
+  }
 
-    .extendLine1 {
-        max-width: 80%;
-        margin: 10px auto;
-    }
+  .extendLine1 {
+    max-width: 80%;
+    margin: 10px auto;
+  }
 
-    .extendLine2 {
-        max-width: 80%;
-        margin: 10px auto;
-    }
+  .extendLine2 {
+    max-width: 80%;
+    margin: 10px auto;
+  }
 
-    .stillImage:hover {
-        transform: scale(1);
-    }
+  .stillImage:hover {
+    transform: scale(1);
+  }
 
-    .expandTop {
-        max-width: 100%;
-    }
+  .expandTop {
+    max-width: 100%;
+  }
 
-    .expandBottom {
-        max-width: 100%;
-    }
+  .expandBottom {
+    max-width: 100%;
+  }
 
-    .backgroundChange {
-        background: url(images\4K-Space-HD-Wallpaper-Free-download.jpg);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        background-position: center;
-    }
+  .backgroundChange {
+    background: url(/images/4K-Space-HD-Wallpaper-Free-download.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
 
-    .booksLeftDescriptionAdjust {
-        margin-left: auto;
-    }
+  .booksLeftDescriptionAdjust {
+    margin-left: auto;
+  }
 
-    .exposeBackground {
-        background-color: #bec7d186;
-    }
+  .exposeBackground {
+    background-color: #bec7d186;
+  }
 }
 
-@media (min-width:250px) and (max-width:750px) {
-    .fullScreen {
-        min-width: 100%;
-    }
+@media (min-width: 250px) and (max-width: 750px) {
+  .fullScreen {
+    min-width: 100%;
+  }
 
-    .menuAlign {
-        text-align: center;
-    }
+  .menuAlign {
+    text-align: center;
+  }
 
-    .extendLine1 {
-        max-width: 80%;
-        margin: 10px auto;
-    }
+  .extendLine1 {
+    max-width: 80%;
+    margin: 10px auto;
+  }
 
-    .extendLine2 {
-        max-width: 80%;
-        margin: 10px auto;
-    }
+  .extendLine2 {
+    max-width: 80%;
+    margin: 10px auto;
+  }
 
-    .stillImage:hover {
-        transform: scale(1);
-    }
+  .stillImage:hover {
+    transform: scale(1);
+  }
 
-    .expandTop {
-        max-width: 100%;
-    }
+  .expandTop {
+    max-width: 100%;
+  }
 
-    .expandBottom {
-        max-width: 100%;
-    }
+  .expandBottom {
+    max-width: 100%;
+  }
 
-    .backgroundChange {
-        background: url(images\4K-Space-HD-Wallpaper-Free-download.jpg);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        background-position: center;
-    }
+  .backgroundChange {
+    background: url(/images/4K-Space-HD-Wallpaper-Free-download.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
 
-    .booksLeftDescriptionAdjust {
-        margin-left: auto;
-    }
+  .booksLeftDescriptionAdjust {
+    margin-left: auto;
+  }
 
-    .exposeBackground {
-        background-color: #bec7d186;
-    }
-
+  .exposeBackground {
+    background-color: #bec7d186;
+  }
 }
